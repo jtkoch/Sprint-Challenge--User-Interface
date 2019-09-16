@@ -79,7 +79,24 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 15px;
+    align-items: center;
+    
+}
 
+.top-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
 
 .top-content .text-container {
     width: 48%;
